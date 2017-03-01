@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { withRouter } from 'react-router'
 
 const Frame = styled.div`
   width: 1024px;
@@ -37,7 +36,11 @@ class SlideFrame extends React.Component {
 
   componentDidMount () {
     this.setScale()
-    window.addEventListener('resize', this.setScale)
+    window.addEventListener('resize', this.setScale, false)
+  }
+
+  componentWillUnmount () {
+    window.removeEventListener('resize', this.setScale, false)
   }
 
   render () {

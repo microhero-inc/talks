@@ -5,15 +5,11 @@ import '../../../slideshow/base.css'
 import React from 'react'
 import { render } from 'react-snapshot'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Helmet from 'react-helmet'
 
 import SlideFrame from './components/slide-frame'
 import SlideController from './components/slide-controller'
-
 import Slides from './slides'
-
-const routes = [
-  { path: 1}
-]
 
 render(
   <Router>
@@ -28,5 +24,5 @@ render(
   </Router>
 
   ,
-  document.getElementById('root')
+  document.getElementById('slides')
 )

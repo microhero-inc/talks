@@ -1,7 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
 import { withRouter } from 'react-router'
-
 
 class SlideController extends React.Component {
 
@@ -23,6 +21,9 @@ class SlideController extends React.Component {
 
       case 'ArrowDown':
         return this.incrementSlide()
+
+      default:
+        break
     }
 
     switch (event.which) {
@@ -37,6 +38,9 @@ class SlideController extends React.Component {
 
       case 40:
         return this.incrementSlide()
+
+      default:
+        break
     }
   }
 
@@ -72,13 +76,13 @@ class SlideController extends React.Component {
   componentWillMount() {
     const {
       location,
-      push
     } = this.props
 
     const path = location.pathname.replace('/', '')
+    const slideId = parseInt(path, 10)
 
     this.setState({
-      slideId: parseInt(path) || 1
+      slideId: slideId || 1
     }, () => {
       this.addKeyboardNav()
       this.navigateTo(this.state.slideId)
@@ -90,10 +94,6 @@ class SlideController extends React.Component {
   }
 
   componentDidUpdate(prevProps, prevState){
-    const {
-      push
-    } = this.props
-
     const {
       slideId
     } = this.state
