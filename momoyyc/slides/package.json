@@ -1,6 +1,6 @@
 {
   "name": "momoyyc-slides",
-  "homepage": "http://microhero-inc.github.io/talks/momoyyc",
+  "homepage": "/talks/momoyyc",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
