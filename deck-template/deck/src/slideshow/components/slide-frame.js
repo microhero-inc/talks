@@ -9,6 +9,7 @@ const Frame = styled.div`
   position: relative;
   transform: scale(${props => props.scaledTo});
   transform-origin: center center;
+  display: flex;
 `
 
 class SlideFrame extends React.Component {

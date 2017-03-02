@@ -1,10 +1,11 @@
 import React from 'react'
+import SlideLayout from '../slideshow/components/slide-layout'
 
 const Slide = () => (
-  <div>
+  <SlideLayout center middle>
     <h1>Slide Title</h1>
     <h2>Slide Subtitle</h2>
-  </div>
+  </SlideLayout>
 )
 
 export default Slide
