@@ -2,8 +2,9 @@ import React from 'react'
 import { render } from 'react-dom'
 import SlideShow from './slideshow'
 import Slides from './slides'
+import Project from '../package.json'
 
 render(
-  <SlideShow slides={Slides} />,
+  <SlideShow slides={Slides} location={Project.homepage} />,
   document.getElementById('slides')
 )
