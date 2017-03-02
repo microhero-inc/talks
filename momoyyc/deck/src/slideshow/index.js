@@ -1,7 +1,7 @@
 import 'normalize.css'
 import './base.css'
 import React from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import SlideFrame from './components/slide-frame'
 import SlideController from './components/slide-controller'
 

@@ -6,6 +6,6 @@ import Slides from './slides'
 import Project from '../package.json'
 
 render(
-  <SlideShow slides={Slides} location={Project.homepage} />,
+  <SlideShow slides={Slides} location={''} />,
   document.getElementById('slides')
 )
