@@ -25,7 +25,7 @@ SlideShow.propTypes = {
 
 SlideShow.defaultProps = {
   slides: [],
-  location: '/'
+  location: ''
 }
 
 export default SlideShow
