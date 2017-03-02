@@ -7,6 +7,7 @@ const Slide = () => (
     <Title>Who's this talk for?</Title>
     <ul>
       <li>You're a javascript developer</li>
+      <li>You're a p cool guy</li>
     </ul>
   </SlideLayout>
 )
