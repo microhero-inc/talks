@@ -1,5 +1,21 @@
 import React from 'react'
 import { withRouter } from 'react-router'
+import styled from 'styled-components'
+
+
+const NavButton = styled.button`
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 33%;
+  z-index: 999;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  left: ${props => props.left ? 0 : 'initial'};
+  right: ${props => props.right ? 0 : 'initial'};
+`
 
 class SlideController extends React.Component {
 
@@ -103,7 +119,10 @@ class SlideController extends React.Component {
   }
 
   render () {
-    return null
+    return <div>
+      <NavButton left onClick={this.decrementSlide}/>
+      <NavButton right onClick={this.incrementSlide}/>
+    </div>
   }
 }
 
