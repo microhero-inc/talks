@@ -1,5 +1,5 @@
 import React from 'react'
-import SlideLayout from '../slideshow/components/slide-layout'
+import SlideLayout from '../../slideshow/components/slide-layout'
 
 const Slide = () => (
   <SlideLayout middle center>

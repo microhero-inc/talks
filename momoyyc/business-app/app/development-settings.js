@@ -38,7 +38,7 @@ class DevelopmentSettings extends React.Component {
     return (
       <View>
         <Ui.ListItemSwitch>
-          <Ui.ListItemLabel>Quality</Ui.ListItemLabel>
+          <Ui.ListItemLabel>Cheap</Ui.ListItemLabel>
           <View>
             <Switch
               onValueChange={(value) => this.handleToggle('quality', value)}
@@ -47,14 +47,14 @@ class DevelopmentSettings extends React.Component {
           </View>
         </Ui.ListItemSwitch>
         <Ui.ListItemSwitch>
-          <Ui.ListItemLabel>Speed</Ui.ListItemLabel>
+          <Ui.ListItemLabel>Good</Ui.ListItemLabel>
           <Switch
             onValueChange={(value) => this.handleToggle('speed', value)}
             value={attributes.includes('speed')}
           />
         </Ui.ListItemSwitch>
         <Ui.ListItemSwitch>
-          <Ui.ListItemLabel>Cost</Ui.ListItemLabel>
+          <Ui.ListItemLabel>Fast</Ui.ListItemLabel>
           <Switch
             onValueChange={(value) => this.handleToggle('cost', value)}
             value={attributes.includes('cost')}

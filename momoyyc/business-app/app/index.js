@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, View, Button } from 'react-native'
+import { Text, View, TouchableOpacity } from 'react-native'
 import styled from 'styled-components/native'
 import Ui from './components/ui'
 import AppHeader from './app-header'
@@ -21,33 +21,40 @@ const Actions = styled.View`
   border-width: 1;
 `
 
+const Button = styled.TouchableOpacity`
+  align-items: center;
+  background-color: #157efb;
+  margin-top: 10;
+`
+
+const ButtonText = styled.Text`
+  font-size: 20;
+  padding: 16;
+  color: white;
+`
+
 export default class App extends React.Component {
 
   render () {
     return (
       <Container>
-        <AppHeader title='@MoMoYYC App Generator' />
+        <AppHeader title='Business Generator' />
         <Ui.List>
-          <Ui.SectionTitle>DEVELOPMENT</Ui.SectionTitle>
-          <DevelopmentSettings />
 
-          <Ui.SectionTitle>WORKLOAD</Ui.SectionTitle>
+          <Ui.SectionTitle>INPUT</Ui.SectionTitle>
           <WorkloadSettings />
 
+          <Ui.SectionTitle>PRODUCT / SERVICE OUTPUT</Ui.SectionTitle>
+          <DevelopmentSettings />
+
           <Actions>
-            <Text>Generate Your App</Text>
-            <Text>
-              All you have to do is press this button and you will generate
-              an high-quality, productive, money-earning app that you can launch
-              on the App Store or Google Play store. You're just one tap away
-              from being a big success!
+            <Text style={{textAlign: 'center'}}>
+              Get ready to generate your dream business. Configure the settings
+              above to your liking and press this button to continue!
             </Text>
-            <Button
-              onPress={() => null}
-              title='Generate App!'
-              color='#841584'
-              disabled
-            />
+            <Button>
+              <ButtonText>Generate!</ButtonText>
+            </Button>
           </Actions>
         </Ui.List>
       </Container>

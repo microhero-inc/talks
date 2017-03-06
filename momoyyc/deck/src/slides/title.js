@@ -2,11 +2,11 @@ import React from 'react'
 import Layout from '../slideshow/components/slide-layout'
 import Title from '../slideshow/components/title'
 import SubTitle from '../slideshow/components/subtitle'
+import logo from '../images/microhero-logo-with-tagline.png'
 
 const Slide = () => (
   <Layout center middle title>
-    <Title>MicroHero Inc.</Title>
-    <SubTitle>Slide Subtitle</SubTitle>
+    <img src={logo} />
   </Layout>
 )
 

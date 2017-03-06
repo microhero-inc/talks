@@ -5,14 +5,11 @@ import logo from '../../images/microhero-logo-with-tagline.png'
 const Frame = styled.div`
   width: 1024px;
   height: 768px;
-  padding: 1rem 1.5rem;
   background: white;
   position: relative;
   transform: scale(${props => props.scaledTo});
   transform-origin: center center;
   display: flex;
-  background: white url(${logo}) bottom left no-repeat;
-  background-size: 160px;
 `
 
 class SlideFrame extends React.Component {
