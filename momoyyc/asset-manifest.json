@@ -1,7 +1,14 @@
 {
-  "main.css": "static/css/main.ac4ccd21.css",
-  "main.css.map": "static/css/main.ac4ccd21.css.map",
-  "main.js": "static/js/main.6b2d8be2.js",
-  "main.js.map": "static/js/main.6b2d8be2.js.map",
-  "static/media/microhero-logo-with-tagline.png": "static/media/microhero-logo-with-tagline.a68f34f8.png"
+  "main.css": "static/css/main.fe8b8dbf.css",
+  "main.css.map": "static/css/main.fe8b8dbf.css.map",
+  "main.js": "static/js/main.5abcb955.js",
+  "main.js.map": "static/js/main.5abcb955.js.map",
+  "static/media/apps.png": "static/media/apps.e1616338.png",
+  "static/media/backers.png": "static/media/backers.8abbb125.png",
+  "static/media/microhero-logo-with-tagline.png": "static/media/microhero-logo-with-tagline.a68f34f8.png",
+  "static/media/rn-components-android.png": "static/media/rn-components-android.74dee13f.png",
+  "static/media/rn-components-ios.png": "static/media/rn-components-ios.105c2b98.png",
+  "static/media/storybook-android.png": "static/media/storybook-android.61eb9b94.png",
+  "static/media/storybook-ios.png": "static/media/storybook-ios.54a4ce44.png",
+  "static/media/storybook-web.png": "static/media/storybook-web.f570ccb1.png"
 }
