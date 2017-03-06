@@ -2,28 +2,62 @@ import React from 'react'
 import {
   Text,
   View,
-  TouchableOpacity,
+  ScrollView,
   Switch,
-  Slider
+  Slider,
+  TouchableOpacity
 } from 'react-native'
 
 const App = () => {
-  <View style='container'>
-    <AppHeader title='Business Generator' />
-    <Ui.List>
+  <View>
+    <Text>Business Generator</Text>
+    <ScrollView>
 
-      <Ui.SectionTitle>
-        INPUT
-      </Ui.SectionTitle>
-      <WorkloadSettings />
+      <View>
+        <Text>INPUT</Text>
+        <View>
+          <View>
+            <Text>Inspiration</Text>
+            <Text>1%</Text>
+          </View>
+          <Slider value={0.01} />
+        </View>
+        <View>
+          <View>
+            <Text>99%</Text>
+          </View>
+          <Slider value={0.99} />
+        </View>
+      </View>
 
-      <Ui.SectionTitle>
-        PRODUCT / SERVICE OUTPUT
-      </Ui.SectionTitle>
-      <DevelopmentSettings />
+      <View>
+        <Text>PRODUCT / SERVICE OUTPUT</Text>
+        <View>
+          <Text>Cheap</Text>
+          <Switch />
+        </View>
+        <View>
+          <Text>Good</Text>
+          <Switch />
+        </View>
+        <View>
+          <Text>Fast</Text>
+          <Switch />
+        </View>
+      </View>
 
-    </Ui.List>
-  </Container>
+      <View>
+        <Text>
+          Get ready to generate your dream business. Configure the settings
+          above to your liking and press this button to continue!
+        </Text>
+        <TouchableOpacity>
+          <Text>Generate!</Text>
+        </TouchableOpacity>
+      </View>
+
+    </ScrollView>
+  </View>
 }
 
 export default App

@@ -5,8 +5,9 @@ const Code = styled.pre`
   background: #f4f6f9;
   font-family: 'Source Code Pro', monospace;
   text-align: left;
-  overflow: hidden;
+  overflow-x: hidden;
   max-width: 100%;
+  max-height: 90%;
   padding: 0.75rem 1rem;
   font-size: 16px;
 `
