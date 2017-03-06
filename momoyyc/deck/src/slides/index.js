@@ -25,6 +25,14 @@ import Spandex2 from './section-2/spandex-2'
 import Spandex3 from './section-2/spandex-3'
 import Spandex4 from './section-2/spandex-4'
 import UX1 from './section-2/ux-1'
+import Conclusion from './section-2/conclusion'
+import Cons from './section-2/rn-cons'
+
+import TryMH1 from './section-3/try-mh-1'
+import TryMH2 from './section-3/try-mh-2'
+import TryMH3 from './section-3/try-mh-3'
+import TryMH4 from './section-3/try-mh-4'
+import TryMH5 from './section-3/try-mh-5'
 
 const section1 = [
   Title,
@@ -51,10 +59,21 @@ const section2 = [
   Spandex2,
   Spandex3,
   Spandex4,
-  UX1
+  UX1,
+  Cons,
+  Conclusion
+]
+
+const section3 = [
+  TryMH1,
+  // TryMH2,
+  TryMH3,
+  // TryMH4,
+  TryMH5
 ]
 
 export default [
   ...section1,
-  ...section2
+  ...section2,
+  ...section3
 ]
