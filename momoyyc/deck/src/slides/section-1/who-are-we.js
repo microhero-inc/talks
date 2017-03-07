@@ -6,9 +6,10 @@ const Slide = () => (
   <SlideLayout middle>
     <Title>Who Are We?</Title>
     <ul>
-      <li>Social good platform that connects companies, consumers and charities through our mobile survey tool</li>
-      <li>Companies create, distribute and analyze surveys</li>
-      <li>Consumers earn real money in the form of “micro-donations” for their favorite causes</li>
+      <li>Social good platform for the mobile generation</li>
+      <li>Mission: Help people do a little good</li>
+      <li>Connect companies, consumers and charities through our mobile survey tool</li>
+      <li>Consumers earn real money “micro-donations” for their favorite causes</li>
       <li>Our product provides a highly engaging, ridiculously simple and delightful mobile experience</li>
       <li>Cost-effective and timely results because people want to “do a little good”</li>
     </ul>
