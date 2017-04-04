@@ -1,0 +1,12 @@
+body {
+  font-family: 'Source Sans Pro';
+  color: #031530;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.05rem;
+}
+
+b {
+  color: #2b3291;
+}
