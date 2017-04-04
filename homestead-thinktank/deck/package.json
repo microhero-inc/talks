@@ -1,6 +1,6 @@
 {
-  "name": "momoyyc-talk",
-  "homepage": "/talks/momoyyc",
+  "name": "homestead-thinktank-talk",
+  "homepage": "/talks/homestead-thinktank",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
