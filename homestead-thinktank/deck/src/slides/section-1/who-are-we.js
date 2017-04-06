@@ -9,6 +9,7 @@ const Slide = () => (
       <li>MicroHero is a social enterprise</li>
       <li>Mission: Help people do a little good</li>
       <li>Connect companies, consumers and charities through our mobile survey tool</li>
+      <li>Cusomters create surveys to answer business questions, validate product ideas, etc.</li>
       <li>Consumers earn real money “micro-donations” for their favorite causes</li>
       <li>Our product provides a highly engaging, ridiculously simple, and delightful mobile experience</li>
       <li>Cost-effective and timely results because people want to “do a little good”</li>
