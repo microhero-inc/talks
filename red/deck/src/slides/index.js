@@ -12,6 +12,7 @@ import Examples from './section-1/recent-examples';
 import QuestionTypes from './section-1/question-types';
 import MHStrategy1 from './section-1/microhero-strategy';
 import MHStrategy2 from './section-1/microhero-strategy-process';
+import Roadmap from './section-1/roadmap';
 
 import TryMH1 from './section-3/try-mh-1';
 import TryMH2 from './section-3/try-mh-2';
@@ -28,6 +29,7 @@ const section1 = [
   Causes,
   Audience,
   Examples,
+  Roadmap,
   QuestionTypes,
   MHStrategy1,
   MHStrategy2,
