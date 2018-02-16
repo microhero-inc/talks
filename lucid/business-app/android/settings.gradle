@@ -1,0 +1,3 @@
+rootProject.name = 'momoyyc32'
+
+include ':app'

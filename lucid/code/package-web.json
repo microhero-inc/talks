@@ -1,0 +1,10 @@
+{
+  "name": "microhero-web",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "styled-components": "^1.4.4",
+    "microhero-spandex": "0.0.1"
+  }
+}
