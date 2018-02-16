@@ -1,6 +1,6 @@
 {
   "name": "red-talk",
-  "homepage": "/talks/red",
+  "homepage": "/talks/lucid",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
